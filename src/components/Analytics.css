@@ -1,0 +1,54 @@
+.analytics-container {
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.analytics-header {
+    align-items: center;
+    background-color: #182628;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.analytics-header-item {
+    color: white;
+    flex-grow: 1; 
+    text-align: center;
+}
+
+.card-header-content {
+    align-items: center;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section {
+    flex: 1;
+    text-align: center;
+}
+
+.bar-chart-container {
+    margin: 40px auto 0 auto; 
+    width: 90%;
+}
+
+.dropdown-button {
+    --bs-btn-active-bg: white; 
+    --bs-btn-active-color: #182628;
+    --bs-btn-active-border-color: #3B945E;
+    background-color: #3B945E;
+    border-color: lightgray;
+    color: white;
+    width: 50%;
+}
+
+.dropdown-button:active, .dropdown-button:focus, .dropdown-button:hover {
+    background-color: white;
+    border-color: #3B945E;
+    box-shadow: none;
+    color: #182628;
+}

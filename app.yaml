@@ -1,0 +1,17 @@
+runtime: nodejs18
+
+handlers:
+  # serve all static files with url ending with a file extension
+  - url: /(.*\..+)$
+    static_files: build/\1
+    upload: build/(.*\..+)$
+  # catch all handler to index.html
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+
+env_variables:
+  REACT_APP_BASE_URL: "https://team-1-new-frontend.uw.r.appspot.com"
+  REACT_APP_API_BASE_URL: "https://team-1-bala-tare-trailor.uw.r.appspot.com"
+  REACT_APP_GOOGLE_CLIENT_ID: "936756793185-m7k59jcvn6qelpsh7iu0anvnok1r7o8d.apps.googleusercontent.com"
+  REACT_APP_GOOGLE_CLIENT_SECRET: "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"

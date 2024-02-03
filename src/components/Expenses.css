@@ -1,0 +1,52 @@
+.expenses-container {
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.expenses-header {
+    align-items: center;
+    background-color: #3B945E;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.expenses-header-item {
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.expenses-row-content {
+    align-items: center;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expenses-row-section {
+    flex: 1;
+    text-align: center;
+    border:1px solid #3B945E;
+    border-top: 0px;
+}
+
+.input-form{
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #3B945E;
+    padding: 10px 20px 0px;
+}
+
+.date-container {
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 20px;
+}
+
+.date {
+    margin: 0 10px;
+}

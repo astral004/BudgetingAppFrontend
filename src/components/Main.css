@@ -1,0 +1,34 @@
+.main-container {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #65CCB8;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.title {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.summary{
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+}
+
+.summary-item {
+    background-color: #65CCB8;
+    padding: 5px 25px;
+}
+
+.logged-out{
+    padding: 20px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 30px;
+    color: #65CCB8;
+    justify-content: center;
+    width: 50%;
+}

@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+.text-to-right {
+  direction: rtl;
+  text-align: right;
+}
+
+.navbar-brand.brand{
+  color: #F2F2F2;
+  padding: 0;
+}
+
+.navbar-nav.nav-link.link {
+  color: white!important;
+}
+
+.navItem {
+  color: white!important;
+}
+
+.nav-link{
+  padding: 0;
+}
+
+img.appLogo {
+  height: 50px;
+  padding-right: 5px;
+}
+
